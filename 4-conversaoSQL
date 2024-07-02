@@ -1,0 +1,2 @@
+CREATE TABLE empresas_backup AS SELECT * FROM empresas;
+ALTER TABLE empresas MODIFY COLUMN cnpj VARCHAR(14);
