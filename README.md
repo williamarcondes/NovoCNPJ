@@ -3,8 +3,9 @@
 NOTA [NOTA](<Nota COCAD SUARA 2024 05 49 CNPJ Alfanumerico.pdf>)
 
 Sugestão para conversão de Banco
-CREATE TABLE empresas_backup AS SELECT * FROM empresas;
-ALTER TABLE empresas MODIFY COLUMN cnpj VARCHAR(14);
+> CREATE TABLE empresas_backup AS SELECT * FROM empresas;
+
+> ALTER TABLE empresas MODIFY COLUMN cnpj VARCHAR(14);
 
 [Validador Antigo em Python](0-validarCNPJantigo.py)
 
