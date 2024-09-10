@@ -5,7 +5,7 @@ def char_to_value(c):
     if c.isdigit():
         return int(c)
     elif c.isalpha():
-        return ord(c.lower()) - 87  # 'a' -> 10, 'b' -> 11, ..., 'z' -> 35
+        return ord(c.upper()) - 48  # 'a' -> 17, 'b' -> 18, ..., 'z' -> 42
     else:
         raise ValueError("Invalid character in CNPJ")
 
